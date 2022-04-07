@@ -52,6 +52,8 @@ while True:
         tanB = math.tan(math.radians(b))
         subTan = (tanA - tanB)/(1+(tanA*tanB))
         print(f"A soma é {subTan:.2f}")
+    if op == 7:
+        break
     else:
         print("Digite uma opção valida")
         continue
